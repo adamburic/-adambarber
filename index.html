@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html lang="hr">
+<html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Adam Barber | Rovinj</title>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
 
 <body>
@@ -18,49 +25,66 @@
 <header>
 
 <div class="logo">
+
 ADAM BARBER
+
 </div>
 
 <nav>
 
-<a href="#about">About</a>
+<a href="#home">Home</a>
+
 <a href="#gallery">Gallery</a>
+
+<a href="#about">About</a>
+
 <a href="#booking">Book</a>
+
 <a href="#contact">Contact</a>
 
 </nav>
 
+<a href="#booking" class="bookBtn">
+
+Book Appointment
+
+</a>
+
 </header>
 
-<section class="hero">
+<section id="home" class="hero">
 
-<div class="hero-content">
+<div class="heroLeft">
 
-<h1>Adam Barber</h1>
+<h1>
 
-<p>Premium Men's Haircuts in Rovinj</p>
+Precision.<br>
 
-<a href="#booking" class="btn">
+Style.<br>
+
+Confidence.
+
+</h1>
+
+<p>
+
+Premium barber based in Rovinj.
+
+Every haircut is focused on precision, clean details and a modern finish.
+
+</p>
+
+<a href="#booking" class="mainButton">
+
 Book Appointment
+
 </a>
 
 </div>
 
-</section>
+<div class="heroRight">
 
-<section id="about">
-
-<div class="container">
-
-<h2>About</h2>
-
-<p>
-
-Welcome to Adam Barber.
-
-Every haircut is done with precision and attention to detail so you leave looking your best.
-
-</p>
+<img src="fade1.jpg">
 
 </div>
 
@@ -68,17 +92,49 @@ Every haircut is done with precision and attention to detail so you leave lookin
 
 <section id="gallery">
 
-<div class="container">
+<div class="title">
 
-<h2>Gallery</h2>
+<span>Gallery</span>
+
+<h2>Latest Work</h2>
+
+</div>
 
 <div class="gallery">
 
-<img src="hair1.jpg">
+<img src="fade1.jpg">
 
-<img src="hair2.jpg">
+<img src="fade2.jpg">
 
 </div>
+
+</section>
+
+<section id="about">
+
+<div class="aboutImage">
+
+<img src="fade2.jpg">
+
+</div>
+
+<div class="aboutText">
+
+<span>About Me</span>
+
+<h2>Adam Barber</h2>
+
+<p>
+
+I'm Adam, a barber based in Rovinj.
+
+My goal is simple —
+
+to deliver clean, modern haircuts with attention to every detail.
+
+Every client gets the same level of care and precision.
+
+</p>
 
 </div>
 
@@ -86,17 +142,19 @@ Every haircut is done with precision and attention to detail so you leave lookin
 
 <section id="booking">
 
-<div class="container">
+<div class="title">
 
-<h2>Book Appointment</h2>
+<span>Booking</span>
 
-<div class="calendar">
-
-<!-- OVDJE IDE TVOJ CALENDLY -->
-
-<p>Calendly booking will appear here.</p>
+<h2>Book Your Appointment</h2>
 
 </div>
+
+<!-- OVDJE ĆEMO UBACITI CALENDLY -->
+
+<div class="bookingBox">
+
+COMING SOON
 
 </div>
 
@@ -104,39 +162,39 @@ Every haircut is done with precision and attention to detail so you leave lookin
 
 <section id="contact">
 
-<div class="container">
+<div class="title">
 
-<h2>Contact</h2>
+<span>Contact</span>
 
-<div class="contact">
+<h2>Let's Connect</h2>
 
-<p>
+</div>
+
+<div class="contactBox">
+
+<div>
 
 <i class="fa-solid fa-location-dot"></i>
 
-Trg Ulika 4, Rovinj
+Trg Ulika 4<br>
 
-</p>
+52210 Rovinj
 
-<p>
+</div>
+
+<div>
 
 <i class="fa-solid fa-phone"></i>
 
 099 351 9602
 
-</p>
+</div>
 
-<p>
+<div>
 
 <i class="fa-brands fa-instagram"></i>
 
-<a href="https://instagram.com/adamm_cutzz" target="_blank">
-
 @adamm_cutzz
-
-</a>
-
-</p>
 
 </div>
 
@@ -146,15 +204,10 @@ Trg Ulika 4, Rovinj
 
 <footer>
 
-<p>
-
 © 2026 Adam Barber
-
-</p>
 
 </footer>
 
-<script src="script.js"></script>
-
 </body>
+
 </html>
